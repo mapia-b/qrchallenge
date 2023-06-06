@@ -10,17 +10,15 @@ body {
 
 .padre-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 15px;
-  margin: 30px;
 }
 .padre-card img {
   display: flex;
   justify-items: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   margin: 21px;
   border-radius: 15px;
 }
@@ -30,7 +28,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0, auto;
+  margin: 50px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  width: 80%;
 }
 .card h2 {
   color: hsl(218, 44%, 22%);
