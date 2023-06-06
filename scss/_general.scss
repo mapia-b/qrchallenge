@@ -1,0 +1,47 @@
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color:$color-grey;
+}
+
+.padre-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-white;
+    border-radius: 15px;
+    margin: 30px;
+    
+
+    img {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        width: 90%;
+        margin: 21px;
+        border-radius: 15px;
+    }
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+
+    h2 {
+        color: $color-dblue;
+        display: block;
+        text-align: center;
+    }
+
+    p {
+        color: $color-blue;
+        display: block;
+        text-align: center;
+    }
+}
